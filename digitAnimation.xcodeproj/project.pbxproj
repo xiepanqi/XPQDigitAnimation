@@ -14,6 +14,7 @@
 		E46EF43D1B8AB56B00CEC0D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46EF43C1B8AB56B00CEC0D0 /* Images.xcassets */; };
 		E46EF4401B8AB56B00CEC0D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46EF43E1B8AB56B00CEC0D0 /* LaunchScreen.xib */; };
 		E46EF44C1B8AB56B00CEC0D0 /* digitAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E46EF44B1B8AB56B00CEC0D0 /* digitAnimationTests.m */; };
+		E46EF4571B8AB5DB00CEC0D0 /* UILabel+digitAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E46EF4561B8AB5DB00CEC0D0 /* UILabel+digitAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E46EF4451B8AB56B00CEC0D0 /* digitAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = digitAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46EF44A1B8AB56B00CEC0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E46EF44B1B8AB56B00CEC0D0 /* digitAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = digitAnimationTests.m; sourceTree = "<group>"; };
+		E46EF4551B8AB5DB00CEC0D0 /* UILabel+digitAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+digitAnimation.h"; sourceTree = "<group>"; };
+		E46EF4561B8AB5DB00CEC0D0 /* UILabel+digitAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+digitAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				E46EF43C1B8AB56B00CEC0D0 /* Images.xcassets */,
 				E46EF43E1B8AB56B00CEC0D0 /* LaunchScreen.xib */,
 				E46EF42F1B8AB56B00CEC0D0 /* Supporting Files */,
+				E46EF4551B8AB5DB00CEC0D0 /* UILabel+digitAnimation.h */,
+				E46EF4561B8AB5DB00CEC0D0 /* UILabel+digitAnimation.m */,
 			);
 			path = digitAnimation;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E46EF4381B8AB56B00CEC0D0 /* ViewController.m in Sources */,
+				E46EF4571B8AB5DB00CEC0D0 /* UILabel+digitAnimation.m in Sources */,
 				E46EF4351B8AB56B00CEC0D0 /* AppDelegate.m in Sources */,
 				E46EF4321B8AB56B00CEC0D0 /* main.m in Sources */,
 			);

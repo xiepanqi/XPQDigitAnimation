@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "UILabel+digitAnimation.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -24,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onClickButton:(id)sender {
+    [self.label animationFrom:0.0 to:100.0 time:10.0 stepTime:0.1 frame:@"%.0f" key:@"test"];
+}
 @end
