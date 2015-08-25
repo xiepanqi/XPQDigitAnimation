@@ -42,7 +42,9 @@ static NSMutableDictionary *digitAnimationDict;
 @end
 
 @implementation UILabel (digitAnimation)
--(void)animationFrom:(CGFloat)fromValue to:(CGFloat)toValue time:(NSTimeInterval)time stepTime:(NSTimeInterval)stepTime frame:(NSString *)frame key:(NSString *)key {
+-(void)animationFrom:(CGFloat)fromValue to:(CGFloat)toValue time:(NSTimeInterval)time stepTime:(NSTimeInterval)stepTime frame:(NSString *)frame {
+    // 以自身地址为键
+    NSString *key = [NSString stringWithFormat:@"%lx", (NSUInteger)self];
     // 创建动画数据存储器
     if (digitAnimationDict == nil) {
         digitAnimationDict = [NSMutableDictionary dictionary];

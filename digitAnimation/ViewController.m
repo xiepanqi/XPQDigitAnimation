@@ -27,6 +27,6 @@
 }
 
 - (IBAction)onClickButton:(id)sender {
-    [self.label animationFrom:0.0 to:100.0 time:10.0 stepTime:0.1 frame:@"%.0f" key:@"test"];
+    [self.label animationFrom:0.0 to:100.0 time:10.0 stepTime:0.1 frame:@"%.0f"];
 }
 @end

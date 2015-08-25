@@ -16,7 +16,6 @@
  *  @param time      时间
  *  @param stepTime  刷新间隔
  *  @param frame     字符显示格式
- *  @param key       动画标示符,如果与原有动画标示符相同则停止原有动画
  */
--(void)animationFrom:(CGFloat)fromValue to:(CGFloat)toValue time:(NSTimeInterval)time stepTime:(NSTimeInterval)stepTime frame:(NSString *)frame key:(NSString *)key;
+-(void)animationFrom:(CGFloat)fromValue to:(CGFloat)toValue time:(NSTimeInterval)time stepTime:(NSTimeInterval)stepTime frame:(NSString *)frame;
 @end
